@@ -1,0 +1,117 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 150px
+}
+
+.card {
+    display: flex; /* Align image and content side by side */
+    border-radius: 10px;
+    overflow: hidden; /* Prevent overflow */
+    width: 800px; /* Set fixed width for the card */
+    background-color: #fff; /* Background color for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.perfume-image {
+    flex: 1; /* Allow image section to take equal space */
+}
+
+.perfume-image img {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area */
+}
+
+.card-content {
+    flex: 1; /* Allow content section to take equal space */
+    padding: 20px; /* Space inside the card content */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space elements nicely */
+    
+}
+
+h2 {
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+   font-family: 'Montserrat' sans-serif;
+   font-size: 14px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 40px;
+   
+    
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 2;
+   
+    
+}
+
+.price {
+    display: flex; /* Use flex to align price elements */
+    
+   
+
+}
+
+.price h1 {
+    font-weight: 700; /* Regular price */
+    color: hsl(158, 36%, 37%);
+    
+}
+
+.price h2 {
+    text-decoration: line-through; /* Strikethrough for original price */
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.green-button button {
+    width: 100%; /* Full width button */
+    height: 50px; /* Fixed height */
+    background-color: hsl(158, 36%, 37%);
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    color: #fff; /* Text color */
+    display: flex; /* Enable flexbox for button */
+    align-items: center; /* Center icon and text vertically */
+    cursor: pointer; /* Pointer cursor */
+    justify-content: center;
+    
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
