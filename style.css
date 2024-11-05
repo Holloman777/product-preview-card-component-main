@@ -109,8 +109,13 @@ p {
     align-items: center; 
     cursor: pointer; 
     justify-content: center;
-    font-family: 'Fraunces', serif; 
+    font-family:'Montserrat', serif; 
+   
   
+}
+
+.green-button button svg {
+    margin-right: 10px;
 }
 
 
